@@ -98,11 +98,22 @@ h3 {
   border: 1px solid var(--primary-color);
 }
 @media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
   .greeting,
-  .name {
+  .name,
+  .weather-app,
+  .place-app,
+  .contact-me {
     font-size: 26px;
   }
-  .developer {
-    font-size: 20px;
+  .developer,
+  .email {
+    font-size: 22px;
+  }
+  .app-link {
+    display: block;
+    margin: 0 auto;
   }
 }
